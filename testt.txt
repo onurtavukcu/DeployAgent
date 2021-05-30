@@ -1,5 +1,9 @@
 fasfsdfdsfzcszcascasdasdsdasdasdasasdasdsaddasdasdasdasdasdsadasd
 
 CHANGE ON MAIN - asdasd
+<<<<<<< HEAD
 
 try to add git push on c#
+=======
+ test bash pull repo
+>>>>>>> 981d807381d987f384ee662536e5e63ee09d3339
