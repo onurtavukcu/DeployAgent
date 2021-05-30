@@ -22,7 +22,8 @@ namespace GitHubWebHookTest.Controllers
         {
 
             ProcessStartInfo processStartInfo = new ProcessStartInfo(fileName, "-c \" " + command + " \"")
-            {
+            { 
+                
                 WorkingDirectory = workingDir,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
