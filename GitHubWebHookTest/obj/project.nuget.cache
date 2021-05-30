@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uuwUwY3rwSvM6QRb+BBf68q9I4OviqjGZnO9yydt5C2sthmZ5JtIDDlI5aCIctuZDINk2oby+n/58msSf/PHPg==",
+  "dgSpecHash": "eE1BEITVc6fQOeH6JogYulTn5X71jWLBujXrMO8cBMYicO+27T5V8h9tG6EAdilL9A4lrpm75oNvMsj3TzKQNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
+  "projectFilePath": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adm\\.nuget\\packages\\libgit2sharp\\0.27.0-preview-0096\\libgit2sharp.0.27.0-preview-0096.nupkg.sha512",
+    "C:\\Users\\adm\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.312\\libgit2sharp.nativebinaries.2.0.312.nupkg.sha512",
     "C:\\Users\\adm\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\adm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\adm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

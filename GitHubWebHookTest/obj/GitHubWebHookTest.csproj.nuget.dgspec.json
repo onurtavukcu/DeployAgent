@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj": {}
+    "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj": {
+    "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
+        "projectUniqueName": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
         "projectName": "GitHubWebHookTest",
-        "projectPath": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
+        "projectPath": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\obj\\",
+        "outputPath": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "LibGit2Sharp": {
+              "target": "Package",
+              "version": "[0.27.0-preview-0096, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"

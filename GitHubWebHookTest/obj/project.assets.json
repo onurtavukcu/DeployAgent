@@ -2,6 +2,65 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "LibGit2Sharp/0.27.0-preview-0096": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.312]"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/LibGit2Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/LibGit2Sharp.dll": {}
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.312": {
+        "type": "package",
+        "build": {
+          "build/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libgit2-6777db8.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/git2-6777db8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/git2-6777db8.pdb": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/git2-6777db8.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/git2-6777db8.pdb": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -88,6 +147,53 @@
     }
   },
   "libraries": {
+    "LibGit2Sharp/0.27.0-preview-0096": {
+      "sha512": "ANrnLBCGLtKSA0PSN4YdBo20FzE79GecdZeo6sRSWhMkI4BbENtzLSUqL1uzmNsahoepcXplQPHyMfzkGuYV1A==",
+      "type": "package",
+      "path": "libgit2sharp/0.27.0-preview-0096",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "App_Readme/CHANGES.md",
+        "App_Readme/LICENSE.md",
+        "App_Readme/README.md",
+        "lib/netcoreapp2.1/LibGit2Sharp.dll",
+        "lib/netcoreapp2.1/LibGit2Sharp.pdb",
+        "lib/netcoreapp2.1/LibGit2Sharp.xml",
+        "lib/netstandard2.0/LibGit2Sharp.dll",
+        "lib/netstandard2.0/LibGit2Sharp.pdb",
+        "lib/netstandard2.0/LibGit2Sharp.xml",
+        "libgit2sharp.0.27.0-preview-0096.nupkg.sha512",
+        "libgit2sharp.nuspec",
+        "square-logo.png"
+      ]
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.312": {
+      "sha512": "sL4OLOblkrLgDW+zE0OL4h9DYVCyZTlA4CppUCgqU8Ud/+Ah+Wxc3EtGpGjmH6xjDMRRpmHUFgAgzj+hzZTHZA==",
+      "type": "package",
+      "path": "libgit2sharp.nativebinaries/2.0.312",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LibGit2Sharp.NativeBinaries.props",
+        "build/net46/LibGit2Sharp.NativeBinaries.props",
+        "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props",
+        "libgit2/LibGit2Sharp.dll.config",
+        "libgit2/libgit2.license.txt",
+        "libgit2/libgit2_hash.txt",
+        "libgit2sharp.nativebinaries.2.0.312.nupkg.sha512",
+        "libgit2sharp.nativebinaries.nuspec",
+        "runtimes/linux-arm/native/libgit2-6777db8.so",
+        "runtimes/linux-arm64/native/libgit2-6777db8.so",
+        "runtimes/linux-musl-x64/native/libgit2-6777db8.so",
+        "runtimes/linux-x64/native/libgit2-6777db8.so",
+        "runtimes/osx/native/libgit2-6777db8.dylib",
+        "runtimes/win-x64/native/git2-6777db8.dll",
+        "runtimes/win-x64/native/git2-6777db8.pdb",
+        "runtimes/win-x86/native/git2-6777db8.dll",
+        "runtimes/win-x86/native/git2-6777db8.pdb"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -225,6 +331,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "LibGit2Sharp >= 0.27.0-preview-0096",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -235,11 +342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
+      "projectUniqueName": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
       "projectName": "GitHubWebHookTest",
-      "projectPath": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
+      "projectPath": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\GitHubWebHookTest.csproj",
       "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adm\\source\\repos\\GitHubWebHookTest\\GitHubWebHookTest\\obj\\",
+      "outputPath": "C:\\Codebase\\Github\\onurtavukcu\\DeployAgent\\GitHubWebHookTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,6 +376,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "LibGit2Sharp": {
+            "target": "Package",
+            "version": "[0.27.0-preview-0096, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
