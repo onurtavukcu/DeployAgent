@@ -27,7 +27,7 @@ namespace GitHubWebHookTest.Controllers
 
             request.Body.Position = 0;
 
-            //Console.WriteLine($"Incoming data: { JsonConvert.SerializeObject(data) }");
+            Console.WriteLine($"Incoming data: { JsonConvert.SerializeObject(body) }");
             Console.WriteLine($"Incoming data: { body }");
 
             return Created("asd", 31);
